@@ -58,9 +58,9 @@ export default function LoginPage() {
 
                     <div className="mt-8 text-center">
                         <p className="text-sm font-[Inter] text-[#64748B] mb-3">Don't have an account yet?</p>
-                        <Link href="/signup">
-                            <Button variant="secondary" className="w-full font-[Inter] bg-slate-100 hover:bg-slate-200 text-[#191C1E] h-12">Request Access</Button>
-                        </Link>
+                        <Button variant="secondary" asChild className="w-full font-[Inter] bg-slate-100 hover:bg-slate-200 text-slate-700 h-12">
+                            <Link href="/signup" className="font-[Inter]">Request Access</Link>
+                        </Button>
                     </div>
                 </div>
                 <div className="mt-6 flex gap-6 text-xs text-[#64748B] font-[Inter]">
